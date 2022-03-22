@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend Mentor - Advice generator app solution
 
 This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
@@ -44,3 +45,6 @@ Users should be able to:
 
 - Website - [Mohanad Alrwaihy](https://mohanad-portfolio.pages.dev/)
 - Frontend Mentor - [@MohanadOO](https://www.frontendmentor.io/profile/MohanadOO)
+=======
+
+>>>>>>> 215ed89e076e199e741668530fb888e2b6698c52
