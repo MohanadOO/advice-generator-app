@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Frontend Mentor - Advice generator app solution
 
 This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
@@ -29,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Here](https://www.frontendmentor.io/solutions/a-rsponsive-advice-generator-created-with-html-css-javascript-s5LgXnJJg)
+- Live Site URL: [Here](https://advice-generator-app-coral.vercel.app/)
 
 ## My process
 
@@ -45,6 +44,3 @@ Users should be able to:
 
 - Website - [Mohanad Alrwaihy](https://mohanad-portfolio.pages.dev/)
 - Frontend Mentor - [@MohanadOO](https://www.frontendmentor.io/profile/MohanadOO)
-=======
-
->>>>>>> 215ed89e076e199e741668530fb888e2b6698c52
