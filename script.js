@@ -3,7 +3,7 @@ const adviceID = document.querySelector('.advice-id')
 const adviceMes = document.querySelector('.advice-message')
 
 quoteBtn.onclick = () => {
-  fetch('https://api.adviceslip.com/advice')
+  fetch('https://api.adviceslip.com/advice', { cache: 'no-cache' })
     .then((res) => res.json())
     .then((data) => {
       adviceID.innerHTML = `#${data.slip.id}`
