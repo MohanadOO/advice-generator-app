@@ -22,8 +22,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 15px;
   padding: 0px 20px;
+  margin: 0 15px;
   background-color: var(--neutral-dark-grayish);
   border-radius: 12px;
   max-width: 500px;
@@ -43,7 +43,6 @@ body {
   text-align: center;
   margin-block: 20px;
   font-weight: 700;
-  transition: all 0.5s;
 }
 
 .quote-btn {
@@ -61,8 +60,16 @@ body {
   transition: all 0.2s;
 }
 
-/* @media (min-width: 300px) {
-  .advice-container {
-    max-width: 500px;
+.quote-divider-desktop {
+  display: none;
+}
+
+@media (min-width: 520px) {
+  .quote-divider-desktop {
+    display: block;
   }
-} */
+
+  .quote-divider-mobile {
+    display: none;
+  }
+}
