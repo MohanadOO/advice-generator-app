@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root {
+  --primary-light-cyan: hsl(193, 38%, 86%);
+  --primary-neon-green: hsl(150, 100%, 66%);
+  --neutral-grayish-blue: hsl(217, 19%, 38%);
+  --neutral-dark-grayish: hsl(217, 19%, 24%);
+  --neutral-dark-blue: hsl(218, 23%, 16%);
+}
+
+body {
+  display: grid;
+  place-items: center;
+  font-family: 'Monrope', sans-serif;
+  background-color: var(--neutral-dark-blue);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.advice-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 15px;
+  padding: 0px 20px;
+  background-color: var(--neutral-dark-grayish);
+  border-radius: 12px;
+  max-width: 500px;
+}
+
+.advice {
+  color: var(--primary-neon-green);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 10px 0;
+}
+.advice-message {
+  font-size: 28px;
+  padding: 0 5px;
+  color: var(--primary-light-cyan);
+  text-align: center;
+  margin-block: 20px;
+  font-weight: 700;
+  transition: all 0.5s;
+}
+
+.quote-btn {
+  padding: 20px;
+  background-color: var(--primary-neon-green);
+  border-radius: 50%;
+  border: none;
+  transform: translateY(30px);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.quote-btn:hover {
+  box-shadow: 0 0 30px var(--primary-neon-green);
+  transition: all 0.2s;
+}
+
+/* @media (min-width: 300px) {
+  .advice-container {
+    max-width: 500px;
+  }
+} */
